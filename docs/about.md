@@ -16,7 +16,7 @@ Rhubarb is designed to enable modern development practices, patterns and princip
 * Test driven development
 * SOLID principles of software design
 
-## Gcd.
+## Gcd. 
 
 [Gcd.](http://gcdtech.com/) is the originator of the framework and curator and maintainer of the
 projects. We use Rhubarb day and daily in demanding and high performance applications and use that experience in shaping the development of Rhubarb.

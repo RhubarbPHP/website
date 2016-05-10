@@ -1,0 +1,28 @@
+.c-global-header {
+    @include padding($base-space*8 $base-space $base-space*4 $base-space);
+    background:color(quaternary);
+    color:color(white);
+    position: relative;
+
+    @include screen-size(md-max) {
+        @include padding($base-space);
+    }
+
+    h1 {
+        display: none;
+    }
+
+    // Documentation Layout
+    .l-docs & {
+        padding: $base-space*2;
+
+        .c-site-logo {
+            padding: 0;
+            float: left;
+            height: $touch-target;
+            width: auto;
+            max-width: 100%;
+        }
+
+    }
+}
